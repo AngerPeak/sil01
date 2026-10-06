@@ -30,7 +30,7 @@ public final class ModBlocks {
             () -> new StoryBlock(unbreakable(MapColor.COLOR_YELLOW, SoundType.METAL).lightLevel(s -> 4), Story::examine));
 
     public static final RegistryObject<Block> AIRLOCK = BLOCKS.register("airlock",
-            () -> new StoryBlock(unbreakable(MapColor.METAL, SoundType.IRON), Story::useAirlock));
+            () -> new StoryBlock(unbreakable(MapColor.METAL, SoundType.METAL), Story::useAirlock));
 
     public static final RegistryObject<Block> MACHINE = BLOCKS.register("machine",
             () -> new StoryBlock(unbreakable(MapColor.COLOR_ORANGE, SoundType.COPPER), Story::useMachine));
